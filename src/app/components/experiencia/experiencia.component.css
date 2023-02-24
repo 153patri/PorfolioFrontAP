@@ -1,0 +1,61 @@
+h2{
+  font-size: 2rem;
+text-align:left;
+margin-top: 0.5rem;
+margin-left: 3.5rem;
+}
+.parrafo{
+  text-align: justify;
+  margin-left: 3rem;
+}
+
+.imagen_justicia {
+    transition: 400ms;
+    box-shadow: 10px 10px 25px 15px #000000;
+    width: 70%;
+    height: 100%;
+    margin-top: .5rem;
+    margin-bottom: 2rem;
+  }
+	.imagen_justicia:hover{
+    opacity: 0.3;
+}
+.row{
+  background-color:#b5b2a3;
+  font-size: 1.25rem;
+
+
+}
+
+
+@media(max-width: 767px){
+  h2{
+    text-align: center;
+    font-size: 1.25rem;
+  }
+  .parrafo{
+    font-size: 1rem;
+    justify-content: center;
+    margin:1.5rem;
+  }
+}
+@media(max-width: 574px){
+h2{
+  text-align: center;
+  text-justify: center;
+  font-size: 1.25rem;
+}
+.expe{
+  margin-left: 1rem;
+}
+.parrafo{
+  font-size: 1rem;
+  justify-content: center;
+  margin:1.5rem;
+}
+}
+.experiencia{
+  padding: 20px;
+    color: #000000; /*COLOR DEL TÍTULO*/
+    font-family: "Raleway", sans-serif;
+}

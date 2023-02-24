@@ -1,0 +1,20 @@
+<div class="row">
+  <div class="container">
+    <div class="logo">
+      <img src="../../../assets/img/APLogo.png" id="logoAP" alt="logo Argentina Programa">
+    </div>
+    <div class="redes">
+        <a href="https://www.linkedin.com/in/patricia-alejandra-gomez/"><img src="../../../assets/img/linkedin.png" id="linkedin"></a>
+
+        <a href="https://www.facebook.com/profile.php?id=100007778921020"><img src="../../../assets/img/facebook.png" id="facebook"></a>
+
+      <a href="https://github.com/153patri/"><img src="../../../assets/img/github.png" id="github"></a>
+      <!-- BOTON DE USER/Login Button  -->
+      <button type="button" class="btn btn-outline-light" (click)="login()" *ngIf="!isLogged">INGRESO</button>
+      <button type="button" class="btn btn-outline-light" (click)="onLogOut()" *ngIf="isLogged">CERRAR SESIÓN</button>
+
+  </div>
+</div>
+</div>
+
+
